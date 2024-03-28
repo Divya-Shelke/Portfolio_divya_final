@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Background color */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ebd40a; /* Container background color */
+            box-shadow: 0 0 20px rgba(14, 2, 2, 0.2); /* Shadow effect */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #333333; /* Title color */
+            margin-top: 0;
+        }
+
+        .project-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .project-details img {
+            max-width: 45%; /* Adjust image width */
+            height: auto;
+            box-shadow: 0 0 10px rgba(7, 49, 203, 0.2); /* Shadow effect */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .components {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .components h2 {
+            color: #fff; /* Title color */
+            background-color: #aa6d10; /* Box background color */
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(147, 65, 65, 0.2); /* Shadow effect */
+        }
+
+        @media (max-width: 768px) {
+            .project-details img {
+                max-width: 100%; /* Adjust image width for smaller screens */
+            }
+            .description,
+            .components {
+                flex: 100%;
+                padding: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Drone Design Project</h1>
+        <div class="project-details">
+            <div class="description">
+                <img src="droneimage.jpg" alt="Project Image 1">
+                <p>* Our drone project features the KK2.1.5 FC and Flysky CT6B flight controller, paired with 30A SimonK ESCs and BLDC motors.</p>
+                <p>* With precision control and optimized power management, our drone offers exceptional stability and extended flight time. Its sleek design and expressive flight capabilities make it a standout in both performance and aesthetics, ideal for various aerial applications.</p>
+            </div>
+            <div class="components">
+                <img src="WhatsApp Image 2024-03-29 at 03.35.57_c08d60e7.jpg" alt="Project Image 2">
+                <h2>Components Used</h2>
+                <ul>
+                    <li>Component 1</li>
+                    <li>Component 2</li>
+                    <!-- Add more components as needed -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
